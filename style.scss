@@ -1,0 +1,82 @@
+/* Colors */
+$lightCyan: hsl(193, 38%, 86%);
+$neonGreen: hsl(150, 100%, 66%);
+
+/* Neutral */
+
+$grayishBlue: hsl(217, 19%, 38%);
+$darkGrayishBlue: hsl(217, 19%, 24%);
+$darkBlue: hsl(218, 23%, 16%);
+
+/* Font */
+$fontManrope: "Manrope", sans-serif;
+
+html {
+  box-sizing: border-box;
+  font-family: $fontManrope;
+  font-size: 28px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $darkBlue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  background-color: $darkGrayishBlue;
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  .card {
+    text-align: center;
+    color: $lightCyan;
+    margin: 1.5rem;
+    h1 {
+      color: $neonGreen;
+      font-size: 0.4rem;
+      letter-spacing: 5px;
+    }
+
+    p {
+      font-weight: 700;
+      font-size: 0.8rem;
+    }
+    img {
+      width: 80%;
+    }
+  }
+
+  .icon-dice {
+    border: 2px solid $neonGreen;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: $neonGreen;
+    position: absolute;
+    bottom: -30px;
+    left: 145px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

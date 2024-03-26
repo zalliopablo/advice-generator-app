@@ -1,0 +1,70 @@
+/* Colors */
+/* Neutral */
+/* Font */
+html {
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+  font-size: 28px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  background-color: hsl(217, 19%, 24%);
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.container .card {
+  text-align: center;
+  color: hsl(193, 38%, 86%);
+  margin: 1.5rem;
+}
+.container .card h1 {
+  color: hsl(150, 100%, 66%);
+  font-size: 0.4rem;
+  letter-spacing: 5px;
+}
+.container .card p {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+.container .card img {
+  width: 80%;
+}
+.container .icon-dice {
+  border: 2px solid hsl(150, 100%, 66%);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(150, 100%, 66%);
+  position: absolute;
+  bottom: -30px;
+  left: 145px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
