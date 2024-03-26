@@ -12,7 +12,7 @@ async function getAdvice() {
 
         if(!res.ok) throw {status: res.status, statusText: res.statusText}
         $card.querySelector("h1").textContent = `ADVICE # ${json.slip.id}`
-        $card.querySelector("p").textContent = `${json.slip.advice}`
+        $card.querySelector("p").textContent = `"${json.slip.advice}"`
     } catch (err) {
         let message = err.statusText || "No se encuentran los datos"
         $card.innerHTML = `Error ${err.status}, texto del error ${message} `
